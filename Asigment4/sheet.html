@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Character Sheet</title>
+	<link rel="stylesheet" type="text/css" href="style/char_sheet.css">
+</head>
+<body>
+
+<form>
+	<fieldset>
+		
+		<legend>Dungeons&Dragons</legend>	
+	
+	<table class="main">
+		<tr>
+			<td rowspan="2"  class="right">
+				<input type="text" name="character_name" id="character_name">
+				<br>
+				<label for="character_name">Character name</label>
+			</td>
+			<td>
+				<input type="text" name="class_lvl" id="class_lvl">
+				<br>
+				<label for="class_lvl">Class and level</label>
+			</td>
+			<td colspan="2">
+				<input type="text" name="background" id="background">
+				<br>
+				<label for="background">Background</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="race" id="race">
+				<br>
+				<label for="race">Race</label>
+			</td>
+			<td>
+				<input type="text" name="aligment" id="aligment">
+				<br>
+				<label for="aligment">Aligment</label>
+			</td>
+			<td>
+				<input type="text" name="xp" id="xp">
+				<br>
+				<label for="xp">Experience Points</label>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<div class="att">	
+	<table class="att">
+		<tr>
+			<td>
+				<input type="text" name="str" id="str">
+				<br>
+				<label for="str">Strength</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="dex" id="dex">
+				<br>
+				<label for="dex">Dexterity</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="con" id="con">
+				<br>
+				<label for="con">Constitution</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="int" id="int">
+				<br>
+				<label for="int">Inteligence</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="wis" id="wis">
+				<br>
+				<label for="wis">Wisdom</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="cha" id="cha">
+				<br>
+				<label for="cha">Charisma</label>
+			</td>
+		</tr>			
+	</table>
+	</div>
+	<div class ="skill">
+	<table class = "skill">
+		<tr>
+			<td class="left"><input type="checkbox" name="inspiration" id="insp" value="1"></td>
+			<td><label for="insp">Inspiration</td>
+		</tr>
+		<tr>
+			<td class="left"><input type="text" name="prof_bonus" id="prof"></td>
+			<td><label for="prof">Proficiency bonus</label></td>
+		</tr>
+		<tr>
+	</table>
+	<table class="skill">
+			<td class="left">
+				<input type="checkbox" name="sawing" id="stre" value="strength">
+			</td>
+			<td>
+				<label for="stre">Strength</label>
+			</td>
+		<tr>
+			<td class="left">
+				<input type="checkbox" name="sawing" id="dext" value="dexterity">
+			</td>
+			<td>
+				<label for="dext">Dexterity</label>	
+			</td>
+		</tr>
+		<tr>
+			<td class="left">
+				<input type="checkbox" name="sawing" id="cons" value="constitution">
+			</td>
+			<td>	
+				<label for="cons">Constitutioon</label>
+			</td>
+		</tr>
+		<tr>
+			<td class="left">
+				<input type="checkbox" name="sawing" id="inte" value="inteligence">
+			</td>
+			<td>
+				<label for="inte">Intelegence</label>
+			</td>
+		</tr>
+		<tr>
+			<td class="left">
+				<input type="checkbox" name="sawing" id="wisd" value="Wisdom">
+			</td>
+			<td>
+				<label for="wisd">Wisdom</label>
+			</td>
+		</tr>
+		<tr>
+			<td class="left">
+				<input type="checkbox" name="sawing" id="char" value="charisma">
+			</td>
+			<td class="left">
+				<label for="char">Charisma</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="under_nam">Sawing throws</td>
+		</tr>
+	</table>
+	<table class="skill">
+		<tr>
+			<td class="left"><input type="checkbox" name="acrobatics" id="acr" value="Acrobatics"></td>
+			<td><label for="acr">Acrobatics</label>	</td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="animal_handling" id="ani" value="Animal_Handling"></td>
+			<td><label for="ani">Animal Handling</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="arcana" id="arc" value="Arcana"></td>
+			<td><label for="arc">Arcana</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="athletics" id="ath" value="Athletics"></td>
+			<td><label for="ath">Athletics</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="deception" id="dec" value="Deception"></td>
+			<td><label for="dec">Deception</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="history" id="his" value="History"></td>
+			<td><label for="his">History</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="insight" id="ins" value="Insight"></td>
+			<td><label for="ins">Insight</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="intimidation" id="int" value="Intimidation"></td>
+			<td><label for="int">Intimidation</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="investigation" id="inv" value="Investigation"></td>
+			<td><label for="inv">Investigation</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="medicine" id="med" value="Medicine"></td>
+			<td><label for="med">Medicine</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="nature" id="nat" value="Nature"></td>
+			<td><label for="nat">Nature</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="perception" id="per" value="Perception"></td>
+			<td><label for="per">Perception</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="performance" id="per" value="Performance"></td>
+			<td><label for="per">Performance</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="persuasion" id="per" value="Persuasion"></td>
+			<td><label for="per">Persuasion</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="religion" id="reli" value="Religion"></td>
+			<td><label for="reli">Religion</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="sleight_of_hand" id="sle" value="Sleight_of_Hand"></td>
+			<td><label for="sle">Sleight of Hand</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="stealth" id="ste" value="Stealth"></td>
+			<td><label for="ste">Stealth</label></td>
+		</tr>
+		<tr>
+			<td class="left"><input type="checkbox" name="survival" id="sur" value="Survival"></td>
+			<td><label for="sur">Survival</label></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="under_nam">Skills</td>
+		</tr>
+	</table>
+	</div>
+	<div class ="operativno">
+		<table class ="operativno">
+			<tr>
+				<td class="one3"><input type="text" name="AC"><br><label for="AC">AC</label></td>
+				<td class="one3"><input type="text" name="INIAT"><br><label for="AC">intative</label></td>
+				<td class="one3"><input type="text" name="SPEED"><br><label for="AC">speed</label></td>
+			</tr>
+			<tr>
+				<td colspan="3" class='top'>Hit Point Maximum:<input type="text" name="HPM" class="HPM"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><input type="text" name="HP" class="HP"><br>Current hit points</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="bot"><input type="text" name="THP" class="HP"><br>Temporary hit points</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="one2 right">
+					Total:<input type="text" name="HPM" class="HPM">
+					<br>
+					<input type="text" name="HP" class="HP"><br>Hit dice</td>
+				</td>
+				<td class="one2">
+				Death saves<br>			
+				Successes: 
+					<select name="suc" id="suc">
+						<option value="0">0</option>
+						<option value="0">1</option>
+						<option value="0">2</option>
+						<option value="0">3</option>
+					</select>
+					<br>
+					Failures:
+					<select name="fai" id="fai">
+						<option value="0">0</option>
+						<option value="0">1</option>
+						<option value="0">2</option>
+						<option value="0">3</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="back">
+		<table>
+			<tr>
+				<td class="bot">
+					<textarea name="personality_traits" id="personality_traits" class="backstory"></textarea>
+					<br>Personality traits
+				</td>
+			</tr>
+			<tr>
+				<td class="bot">
+					<textarea name="ideals" id="ideals" class="backstory"></textarea>
+					<br>Ideals
+				</td>
+			</tr>
+			<tr>
+				<td class="bot">
+					<textarea name="bonds" id="bonds" class="backstory"></textarea>
+					<br>Bonds
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<textarea name="flaws" id="flaws" class="backstory"></textarea>
+					<br>Flaws
+				</td>
+			</tr>
+		</table>
+	</div>
+		<div class="dnd_logo">
+		<img src="style/img/dnd_logo.png" class="dnd_logo">
+		</div>
+		<div class="dnd_logo2">
+		<img src="style/img/dnd_logo2.png" class="dnd_logo2">
+		</div>
+	</fieldset>
+</form>
+
+</body>
+</html>

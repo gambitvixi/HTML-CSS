@@ -1,0 +1,55 @@
+table {
+	background-color: lightgray;
+	width: 100%;
+	border-style: solid;
+	border-color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+table.att {
+	height: 600px;
+	width: 10%;
+	float: left;
+	margin-right: 2px;
+}
+
+table.skill {
+	width: 20%;
+	float: left;
+}
+
+td{
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+table.main input {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+table.att input {
+	height: 50%;
+	width: 50%;
+	font-size: 24px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+td.left {
+	width: 20%;
+}
+
+td.under_nam {
+	border-top: solid;
+	margin-left: 0;
+}

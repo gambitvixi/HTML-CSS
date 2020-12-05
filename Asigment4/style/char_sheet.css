@@ -1,0 +1,167 @@
+td.right {
+	border-right: solid;
+}
+
+input {
+	text-align: center;
+}
+
+#prof {
+	width: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+table {
+	background-color: lightgray;
+	width: 100%;
+	border-style: solid;
+	border-color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-bottom: 2px;
+}
+table.att {
+	min-height: 755px;
+	width: 90%;
+}
+
+table.skill {
+	width: 90%;
+	margin-bottom: 5px;
+}
+
+td{
+	text-align: center;
+}
+
+table.main input {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+table.att input {
+	height: 50px;
+	width: 50px;
+	font-size: 24px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+td.left {
+	width: 20%;
+}
+
+td.under_nam {
+	border-top: solid;
+	margin-left: 0;
+}
+
+input[type=text]:focus {
+  outline: 0;
+}
+
+div.skill {
+	width: 20%;
+	float: left;
+	margin: auto;
+	box-sizing: border-box;
+	min-height: 755px;
+}
+
+div.att {
+	width: 15%;
+	float: left;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+div.operativno {
+	width: 30%;
+	float: left;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+div.back {
+	width: 33%;
+	float: right;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+td.one3 input {
+	width: 40px;
+	height: 25px;
+}
+
+td.one3 {
+	width: 33%;
+}
+
+.top {
+	border-top: solid;
+}
+.bot {
+	border-bottom: solid;
+}
+input.HP {
+	width: 50%;
+	height: 50px;
+	font-size: 24px;
+}
+
+td.one2 {
+	width: 66%;
+}
+
+
+td.righta {
+	text-align: right;
+}
+
+input.HPM {
+	width: 24px;
+}
+
+textarea.backstory {
+	width: 95%;
+	height: 100px;
+	padding: 5px;
+	font-family: sans-serif;
+	font-size: 16;
+}
+
+
+img.dnd_logo {
+	width: 100%;
+}
+
+div.dnd_logo {
+	width: 25%;
+	float: left;
+	margin-left: 30px;
+}
+
+img.dnd_logo2 {
+	width: 100%;
+}
+
+div.dnd_logo2 {
+	width: 65%;
+	float: right;
+	margin-top: 30px;
+}
+
+p.sawing {
+	text-align: center;
+	margin: 0px;
+	padding: 0px 0px 2px 0px;
+}
