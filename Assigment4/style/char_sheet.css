@@ -66,34 +66,13 @@ table.skill {
 	margin-bottom: 5px;
 }
 
-table.main input {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	border: none;
+td{
 	text-align: center;
-	font-family: sans-serif;
-}
-
-table.att input {
-	height: 50px;
-	width: 50px;
-	font-size: 24px;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 50%;
-	text-align: center;
-	font-family: sans-serif;
 }
 
 td.right {
 	border-right: solid;
 }
-
-td{
-	text-align: center;
-}
-
 td.left {
 	width: 20%;
 }
@@ -136,10 +115,6 @@ input.profi {
 	display: inline-block;
 }
 
-input[type=text]:focus {
-  outline: 0;
-}
-
 input.HP {
 	width: 50%;
 	height: 50px;
@@ -148,6 +123,35 @@ input.HP {
 
 input.HPM {
 	width: 24px;
+}
+
+table.main input {
+	width: 95%;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+table.main input.background {
+	width: 97%;
+}
+
+input[type=text]:focus {
+  outline: 0;
+}
+
+table.att input {
+	height: 50px;
+	width: 50px;
+	font-size: 24px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	text-align: center;
+	font-family: sans-serif;
 }
 
 textarea.backstory {
