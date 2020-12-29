@@ -1,0 +1,12 @@
+table {
+	float: left;
+	border: solid;
+	display: inline-table;
+	width: 250px;
+	margin: 5px;
+	padding: 5px;
+}
+
+td.text {
+	border-top: solid;
+}
